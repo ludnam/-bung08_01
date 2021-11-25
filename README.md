@@ -10,9 +10,6 @@ import javafx.scene.shape.Rectangle;
 import javafx.stage.Stage;
 
 
-/**
- * JavaFX App
- */
 public class App extends Application {
 
     @Override
