@@ -1,6 +1,4 @@
-# Uebung08_01
-
-package org.hsd.inflab.Uebung08;
+# Uebung08_01package org.hsd.inflab.Uebung08;
 
 import javafx.application.Application;
 import javafx.scene.Scene;
@@ -20,32 +18,35 @@ public class App extends Application {
     		BorderPane fenster = new BorderPane();
     		Scene buehne = new Scene(fenster,400,400);
     		
+    		int breiteRect = 200;
+    		int hoeheRect = 50;
+    		
     		//Figuren
-    		Rectangle flaggenmast =  new Rectangle();
-    		Rectangle flaggeAbschnitt_1 =  new Rectangle();
-    		Rectangle flaggeAbschnitt_2 =  new Rectangle();
-    		Rectangle flaggeAbschnitt_3 =  new Rectangle();
+    		Rectangle flaggenmast =  new Rectangle(100,100,5,400);
+    		Rectangle flaggeAbschnitt_1 =  new Rectangle(105,100,breiteRect,hoeheRect);
+    		Rectangle flaggeAbschnitt_2 =  new Rectangle(105,150,breiteRect,hoeheRect);
+    		Rectangle flaggeAbschnitt_3 =  new Rectangle(105,200,breiteRect,hoeheRect);
     		
     		//Größer der Figuren
-    		flaggenmast.setX(100);
-    		flaggenmast.setY(100);
-    		flaggenmast.setWidth(5);
-    		flaggenmast.setHeight(400);
-    		
-    		flaggeAbschnitt_1.setX(105);
-    		flaggeAbschnitt_1.setY(100);
-    		flaggeAbschnitt_1.setWidth(200);
-    		flaggeAbschnitt_1.setHeight(50);
-    		
-    		flaggeAbschnitt_2.setX(105);
-    		flaggeAbschnitt_2.setY(150);
-    		flaggeAbschnitt_2.setWidth(200);
-    		flaggeAbschnitt_2.setHeight(50);	
-    		
-    		flaggeAbschnitt_3.setX(105);
-    		flaggeAbschnitt_3.setY(200);
-    		flaggeAbschnitt_3.setWidth(200);
-    		flaggeAbschnitt_3.setHeight(50);
+//    		flaggenmast.setX(100);
+//    		flaggenmast.setY(100);
+//    		flaggenmast.setWidth(5);
+//    		flaggenmast.setHeight(400);
+//    		
+//    		flaggeAbschnitt_1.setX(105);
+//    		flaggeAbschnitt_1.setY(100);
+//    		flaggeAbschnitt_1.setWidth(200);
+//    		flaggeAbschnitt_1.setHeight(50);
+//    		
+//    		flaggeAbschnitt_2.setX(105);
+//    		flaggeAbschnitt_2.setY(150);
+//    		flaggeAbschnitt_2.setWidth(200);
+//    		flaggeAbschnitt_2.setHeight(50);	
+//    		
+//    		flaggeAbschnitt_3.setX(105);
+//    		flaggeAbschnitt_3.setY(200);
+//    		flaggeAbschnitt_3.setWidth(200);
+//    		flaggeAbschnitt_3.setHeight(50);
     		
     		//Farben der Figuren
     		flaggenmast.setFill(Color.GRAY);
